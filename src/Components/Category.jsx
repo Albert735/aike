@@ -44,7 +44,7 @@ function Category() {
           <h1 className="Golanerounded text-[2.4rem]">
             Pioneering innovation and <br /> excellence in furniture
           </h1>
-          <p className="Golanerounded text-gray-500 leading-loose">
+          <p className="Golanerounded text-gray-500 leading-loose text-[18px]">
             Striving for excellence in every detail, we are committed to <br />
             revolutionizing the online shopping experience. Our ambition is to{" "}
             <br />
