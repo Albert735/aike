@@ -16,11 +16,34 @@ function Inspo() {
         </h1>
       </div>
       <div className="flex justify-center items-center gap-5 py-10">
-        <img src={inspo1} alt="" className=" h-[20rem] rounded-lg drop-shadow-md" />
-        <img src={inspo2} alt="" className=" h-[30rem] rounded-lg drop-shadow-md" />
-        <img src={inspo3} alt="" className=" h-[40rem] rounded-lg drop-shadow-md" />
-        <img src={inspo4} alt="" className=" h-[30rem] rounded-lg drop-shadow-md" />
-        <img src={inspo5} alt="" className=" h-[20rem] rounded-lg drop-shadow-md" />
+        <img
+          src={inspo1}
+          alt=""
+          className=" h-[20rem] rounded-lg drop-shadow-md"
+        />
+        <img
+          src={inspo2}
+          alt=""
+          className=" h-[30rem] rounded-lg drop-shadow-md"
+        />
+        <img
+          src={inspo3}
+          alt=""
+          className=" h-[40rem] rounded-lg drop-shadow-md"
+        />
+        <img
+          src={inspo4}
+          alt=""
+          className=" h-[30rem] rounded-lg drop-shadow-md"
+        />
+        <img
+          src={inspo5}
+          alt=""
+          className=" h-[20rem] rounded-lg drop-shadow-md"
+        />
+      </div>
+      <div>
+        <p className="CisalackSignature absolute -bottom-[200rem] -z-20  text-[35rem] text-gray-200">AIKE</p>
       </div>
     </div>
   );
