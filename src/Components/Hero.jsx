@@ -26,7 +26,7 @@ const Hero = () => {
             pieces and create a serene and inviting home
           </p>
         </div>
-        <div className="flex justify-start items-center gap-5 my-10 text-[12px] lg:text-lg">
+        <div className="flex  justify-between items-center gap-5 my-10 text-[12px] lg:text-lg">
           <button className="bg-black text-white lg:px-4 px-2 py-3 rounded-lg ">
             Shop Now
           </button>
