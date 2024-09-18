@@ -13,7 +13,7 @@ function Category() {
           <h1 className="CisalackSignature text-xl text-center xl:text-start w-full">
             CATEGORY
           </h1>
-          <h1 className="Golanerounded text-[2rem]">
+          <h1 className="Golanerounded text-center xl:text-start w-full text-[2rem]">
             Design Your Perfect Home
           </h1>
         </div>
@@ -58,7 +58,7 @@ function Category() {
           <img
             src={sittinArea}
             alt=""
-            className="xl:h-[35rem] xl:w-[55rem] rounded-[3rem] "
+            className="xl:h-[35rem] xl:w-[55rem] w-[25rem] rounded-[3rem] "
           />
         </div>
         <div className="xl:w-[35rem] text-center xl:text-start ">

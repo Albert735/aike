@@ -13,10 +13,10 @@ import halfStar from "../assets/icons8-star-half-empty-100.png";
 
 const Hero = () => {
   return (
-    <div className="logo flex flex-col xl:flex-row w-[100%] max-w-screen-2xl mx-auto justify-between items-start py-10 px-5 md:px-0">
-      <div className="flex flex-col gap-5">
+    <div className="logo flex flex-col xl:flex-row  max-w-screen-2xl mx-auto justify-between items-start py-10 px-5 md:px-0 ">
+      <div className="flex flex-col gap-5 w-full xl:w-[40rem]">
         <div className=" ">
-          <h1 className="xl:text-[4rem] text-[2rem] text-center xl:text-left Golanerounded">
+          <h1 className="xl:text-[4rem] text-[2rem] md:text-[2.5rem] text-center xl:text-left Golanerounded">
             Discover elegant & <br /> affordable furniture <br /> for every
             room.
           </h1>
@@ -26,17 +26,19 @@ const Hero = () => {
             pieces and create a serene and inviting home
           </p>
         </div>
-        <div className="flex justify-between items-start gap-5 my-10 text-[12px] xl:text-lg">
-          <button className="bg-black text-white xl:px-4 px-2 py-3 rounded-lg ">
-            Shop Now
-          </button>
-          <span className="flex justify-center items-center gap-2 ">
-            <img src={delivery} alt="" className="xl:h-7 xl:w-7 h-5 w-5" />
-            <button className="">Free Delivery</button>
-          </span>
-          <span className="flex justify-center items-center gap-2">
-            <img src={clock} alt="" className="xl:h-7 xl:w-7 h-5 w-5" />
-            <button>Always on-time</button>
+        <div className="flex justify-center xl:justify-start items-center  gap-5 my-10 text-[12px] xl:text-lg">
+          <span className="flex justify-between items-center w-[34rem]">
+            <button className="bg-black text-white xl:px-4 px-2 py-3 rounded-lg ">
+              Shop Now
+            </button>
+            <span className="flex justify-center items-center gap-2 ">
+              <img src={delivery} alt="" className="xl:h-7 xl:w-7 h-5 w-5" />
+              <button className="">Free Delivery</button>
+            </span>
+            <span className="flex justify-center items-center gap-2">
+              <img src={clock} alt="" className="xl:h-7 xl:w-7 h-5 w-5" />
+              <button>Always on-time</button>
+            </span>
           </span>
         </div>
         <div className="flex flex-col justify-center items-center xl:justify-center xl:items-start gap-3">
@@ -90,12 +92,12 @@ const Hero = () => {
           <img
             src={chair}
             alt=""
-            className="h-[15rem] relative right-16 xl:right-0 -top-4 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[3rem]  brightness-110"
+            className="h-[15rem] relative right-10 md:left-10 lg:left-20 xl:right-0 -top-4 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[3rem]  brightness-110 "
           />
           <img
             src={view}
             alt=""
-            className="h-[15rem] relative left-16 xl:left-0 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[3rem]"
+            className="h-[15rem] relative left-16 md:left-[35rem] lg:left-[40rem] xl:left-0 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[3rem] "
           />
         </span>
 
@@ -103,9 +105,9 @@ const Hero = () => {
           <img
             src={elegant}
             alt=""
-            className="h-[25rem]  relative right-16 xl:right-0 w-[15rem] xl:w-[25rem] xl:h-[46.5rem] rounded-[3rem] brightness-110"
+            className="h-[25rem]  relative right-14 md:left-10 lg:left-24 xl:right-0 w-[15rem] xl:w-[25rem] xl:h-[46.5rem] rounded-[3rem] brightness-110"
           />
-          <p className="Golanerounded relative xl:bottom-24 bottom-56 xl:left-5 right-10 text-white xl:text-[1.2rem] rounded-md bg-white/15 w-[9rem] xl:w-[15rem] px-4 py-2 backdrop-blur-lg ">
+          <p className="Golanerounded relative xl:bottom-24 md:hidden bottom-56 xl:left-5 right-10 text-white xl:text-[1.2rem] rounded-md bg-white/15 w-[9rem] xl:w-[15rem] px-4 py-2 backdrop-blur-lg ">
             modern & stylish furniture
           </p>
         </span>

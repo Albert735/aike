@@ -20,10 +20,10 @@ export const Navbar = () => {
   return (
     <div className="logo flex w-[100%] max-w-screen-2xl mx-auto justify-between items-center py-5 px-5 md:px-0">
       <div className="flex flex-row justify-center items-center gap-5">
-        <h1 className="CisalackSignature font-bold md:text-[2rem] text-[1.5rem]">
+        <h1 className="CisalackSignature font-bold xl:text-[2rem] text-[1.5rem]">
           AIKE
         </h1>
-        <div className="Golanerounded hidden text-md  md:flex flex-row px-5 py-1">
+        <div className="Golanerounded hidden text-md  xl:flex flex-row px-5 py-1">
           <ul className="flex flex-row  gap-7">
             <span className="flex justify-center items-center gap-1">
               <li>Category</li>
@@ -41,11 +41,11 @@ export const Navbar = () => {
           onClick={toggling}
           src={menubar}
           alt=""
-          className="h-7 w-7 md:hidden "
+          className="h-7 w-7 xl:hidden "
         />
       </div>
       {open && (
-        <div className="absolute top-0 right-0 md:hidden flex flex-col justify-center items-center gap-5 bg-white h-screen w-screen">
+        <div className="absolute top-0 right-0 xl:hidden flex flex-col justify-center items-center gap-5 bg-white h-screen w-screen">
           <img
             src={close}
             alt=""
@@ -79,7 +79,7 @@ export const Navbar = () => {
           </ul>
         </div>
       )}
-      <div className="hidden  md:flex justify-between items-center gap-10">
+      <div className="hidden  xl:flex justify-between items-center gap-10">
         <Search />
         <ActionIcons />
       </div>
