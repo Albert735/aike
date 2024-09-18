@@ -17,7 +17,7 @@ function FurnitureSale() {
           <img
             src={kalax}
             alt=""
-            className="lg:h-[30rem] h-[20rem] rounded-[3rem]"
+            className="xl:h-[30rem] h-[20rem] rounded-[3rem]"
           />
           <p className="text-center w-full">Kalax Table</p>
         </span>
@@ -25,7 +25,7 @@ function FurnitureSale() {
           <img
             src={mammut}
             alt=""
-            className="lg:h-[30rem] h-[20rem] rounded-[3rem]"
+            className="xl:h-[30rem] h-[20rem] rounded-[3rem]"
           />
           <p className="text-center w-full">Mammut</p>
         </span>
@@ -33,7 +33,7 @@ function FurnitureSale() {
           <img
             src={arklestorp}
             alt=""
-            className="lg:h-[30rem] lg:w-[18rem] h-[20rem] w-[15rem] rounded-[3rem]"
+            className="xl:h-[30rem] xl:w-[18rem] h-[20rem] w-[15rem] rounded-[3rem]"
           />
           <p className="text-center w-full">Arklestorp</p>
         </span>
@@ -42,7 +42,7 @@ function FurnitureSale() {
           <img
             src={lax}
             alt=""
-            className="lg:h-[30rem] h-[20rem] rounded-[3rem]"
+            className="xl:h-[30rem] h-[20rem] rounded-[3rem]"
           />
           <p className="text-center w-full">Lax</p>
         </span>
@@ -51,7 +51,7 @@ function FurnitureSale() {
           <img
             src={naxu}
             alt=""
-            className="lg:h-[30rem] h-[20rem] rounded-[3rem]"
+            className="xl:h-[30rem] h-[20rem] rounded-[3rem]"
           />
           <p className="text-center w-full">Naxu Duo</p>
         </span>

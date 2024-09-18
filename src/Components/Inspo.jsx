@@ -9,7 +9,7 @@ function Inspo() {
   return (
     <div className="logo flex flex-col w-[100%] max-w-screen-2xl mx-auto justify-between items-start py-20 px-5 md:px-0 ">
       <div>
-        <h1 className="lg:text-[3rem] text-[2rem] Golanerounded">
+        <h1 className="xl:text-[3rem] text-[2rem] Golanerounded">
           We <span className="CisalackSignature">meticulously</span> curate our
           <br /> <span className="text-gray-500"> product selections</span> to
           ensure <br /> you receive only the best.
@@ -20,32 +20,32 @@ function Inspo() {
           <img
             src={inspo1}
             alt=""
-            className="hidden lg:flex h-[20rem] rounded-lg drop-shadow-md"
+            className="hidden xl:flex h-[20rem] rounded-lg drop-shadow-md"
           />
           <img
             src={inspo2}
             alt=""
-            className=" lg:h-[30rem] h-[10rem] relative -right-12   -rotate-12  rounded-lg drop-shadow-md"
+            className=" xl:h-[30rem] h-[10rem] relative -right-12   -rotate-12  rounded-lg drop-shadow-md"
           />
           <img
             src={inspo3}
             alt=""
-            className=" lg:h-[40rem] h-[15rem] rounded-lg drop-shadow-md"
+            className=" xl:h-[40rem] h-[15rem] rounded-lg drop-shadow-md"
           />
           <img
             src={inspo4}
             alt=""
-            className=" lg:h-[30rem] h-[10rem] relative right-12  -z-10 rotate-12 rounded-lg drop-shadow-md"
+            className=" xl:h-[30rem] h-[10rem] relative right-12  -z-10 rotate-12 rounded-lg drop-shadow-md"
           />
           <img
             src={inspo5}
             alt=""
-            className="hidden lg:flex h-[20rem] rounded-lg drop-shadow-md"
+            className="hidden xl:flex h-[20rem] rounded-lg drop-shadow-md"
           />{" "}
         </div>
 
         <div>
-          <p className=" CisalackSignature absolute lg:-bottom-[10rem] -bottom-[2rem] right-4 -z-20  lg:text-[35rem] text-[8rem] text-gray-200">
+          <p className=" CisalackSignature absolute xl:-bottom-[10rem] -bottom-[2rem] right-4 -z-20  xl:text-[35rem] text-[8rem] text-gray-200">
             AIKE
           </p>
         </div>
