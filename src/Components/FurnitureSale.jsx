@@ -12,28 +12,48 @@ function FurnitureSale() {
         <h1 className="CisalackSignature text-xl">POPULAR</h1>
         <h1 className="Golanerounded text-[2rem]">Furniture Sale Now On!</h1>
       </div>
-      <div className="Golanerounded text-lg flex justify-center items-center gap-3">
+      <div className="Golanerounded text-lg flex justify-center items-center gap-10 flex-wrap">
         <span className="flex flex-col justify-start items-start gap-5">
-          <img src={kalax} alt="" className="h-[30rem]" />
-          <p>Kalax Table</p>
+          <img
+            src={kalax}
+            alt=""
+            className="lg:h-[30rem] h-[20rem] rounded-[3rem]"
+          />
+          <p className="text-center w-full">Kalax Table</p>
         </span>
         <span className="flex flex-col justify-start items-start gap-5">
-          <img src={mammut} alt="" className="h-[30rem]" />
-          <p>Mammut</p>
+          <img
+            src={mammut}
+            alt=""
+            className="lg:h-[30rem] h-[20rem] rounded-[3rem]"
+          />
+          <p className="text-center w-full">Mammut</p>
         </span>
         <span className="flex flex-col justify-start items-start gap-5">
-          <img src={arklestorp} alt="" className="h-[30rem]" />
-          <p>Arklestorp</p>
+          <img
+            src={arklestorp}
+            alt=""
+            className="lg:h-[30rem] lg:w-[18rem] h-[20rem] w-[15rem] rounded-[3rem]"
+          />
+          <p className="text-center w-full">Arklestorp</p>
         </span>
 
         <span className="flex flex-col justify-start items-start gap-5">
-          <img src={lax} alt="" className="h-[30rem]" />
-          <p>Lax</p>
+          <img
+            src={lax}
+            alt=""
+            className="lg:h-[30rem] h-[20rem] rounded-[3rem]"
+          />
+          <p className="text-center w-full">Lax</p>
         </span>
 
         <span className="flex flex-col justify-start items-start gap-5">
-          <img src={naxu} alt="" className="h-[30rem]" />
-          <p>Naxu Duo</p>
+          <img
+            src={naxu}
+            alt=""
+            className="lg:h-[30rem] h-[20rem] rounded-[3rem]"
+          />
+          <p className="text-center w-full">Naxu Duo</p>
         </span>
       </div>
     </div>

@@ -9,7 +9,7 @@ function Inspo() {
   return (
     <div className="logo flex flex-col w-[100%] max-w-screen-2xl mx-auto justify-between items-start py-20 px-5 md:px-0 ">
       <div>
-        <h1 className="text-[3rem] Golanerounded">
+        <h1 className="lg:text-[3rem] text-[2rem] Golanerounded">
           We <span className="CisalackSignature">meticulously</span> curate our
           <br /> <span className="text-gray-500"> product selections</span> to
           ensure <br /> you receive only the best.
@@ -43,7 +43,9 @@ function Inspo() {
         />
       </div>
       <div>
-        <p className="CisalackSignature absolute -bottom-[200rem] -z-20  text-[35rem] text-gray-200">AIKE</p>
+        <p className="CisalackSignature absolute lg:-bottom-[230rem] -bottom-[400rem] -z-20  lg:text-[35rem] text-[8rem] text-gray-200">
+          AIKE
+        </p>
       </div>
     </div>
   );

@@ -2,14 +2,14 @@
 
 function Footer() {
   return (
-    <div className="logo flex flex-col w-[100%] max-w-screen-2xl mx-auto justify-between items-start py-5 px-5 md:px-0">
-      <div className="flex justify-between w-full">
+    <div className="logo flex flex-col w-[100%] max-w-screen-2xl mx-auto justify-between items-start py-5 px-5 md:px-0 gap-10">
+      <div className="flex lg:flex-row flex-col flex-wrap justify-between w-full gap-10">
         <div>
           <h1 className="CisalackSignature font-bold md:text-[2rem] text-[1.5rem]">
             AIKE
           </h1>
         </div>
-        <div className="Golanerounded flex justify-between items-start w-[50rem]">
+        <div className="Golanerounded flex flex-wrap   justify-between items-start lg:w-[50rem]">
           <span>
             <h1 className="text-[1.3rem] py-2">Company</h1>
             <ul className="space-y-3 text-gray-500">
@@ -41,7 +41,7 @@ function Footer() {
       </div>
 
       <hr className="h-1 w-full my-5" />
-      <div className="Golanerounded flex justify-between items-start w-full">
+      <div className="Golanerounded flex flex-wrap  justify-between items-start w-full gap-5 ">
         <span>
           <p className="text-gray-500 Golanerounded">© 2023 AIKE. All rights reserved.</p>
           <p className="text-gray-500 Golanerounded">Powered by AIKE</p>
