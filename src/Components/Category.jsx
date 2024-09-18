@@ -53,15 +53,15 @@ function Category() {
         </div>
       </div>
 
-      <div className="flex flex-col xl:flex-row justify-between items-start w-full gap-10">
-        <div>
+      <div className="flex flex-col xl:flex-row justify-between xl:items-start w-full gap-10 xl:gap-20">
+        <div className="flex xl:justify-start justify-center   ">
           <img
             src={sittinArea}
             alt=""
-            className="xl:h-[35rem] xl:w-[55rem] w-[25rem] rounded-[3rem] "
+            className="xl:h-[30rem] xl:w-[50rem] w-[25rem] rounded-[3rem] "
           />
         </div>
-        <div className="xl:w-[35rem] text-center xl:text-start ">
+        <div className="xl:w-[45rem] text-center xl:text-start ">
           <h1 className="CisalackSignature text-[1.2rem] text-center xl:text-start">
             OUR AMBITIONS
           </h1>
