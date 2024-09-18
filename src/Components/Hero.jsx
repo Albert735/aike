@@ -92,12 +92,12 @@ const Hero = () => {
           <img
             src={chair}
             alt=""
-            className="h-[15rem] relative right-10 md:left-10 lg:left-20 xl:right-0 -top-4 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[3rem]  brightness-110 "
+            className="h-[15rem] relative right-10 md:left-10 lg:left-20 xl:right-0 -top-4 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[1rem]  brightness-110 "
           />
           <img
             src={view}
             alt=""
-            className="h-[15rem] relative left-16 md:left-[35rem] lg:left-[40rem] xl:left-0 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[3rem] "
+            className="h-[15rem] relative left-16 md:left-[35rem] lg:left-[40rem] xl:left-0 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[1rem] "
           />
         </span>
 
@@ -105,7 +105,7 @@ const Hero = () => {
           <img
             src={elegant}
             alt=""
-            className="h-[25rem]  relative right-14 md:left-10 lg:left-24 xl:right-0 w-[15rem] xl:w-[25rem] xl:h-[46.5rem] rounded-[3rem] brightness-110"
+            className="h-[25rem]  relative right-14 md:left-10 lg:left-24 xl:right-0 w-[15rem] xl:w-[25rem] xl:h-[46.5rem] rounded-[1rem] brightness-110"
           />
           <p className="Golanerounded relative xl:bottom-24 md:hidden bottom-56 xl:left-5 right-10 text-white xl:text-[1.2rem] rounded-md bg-white/15 w-[9rem] xl:w-[15rem] px-4 py-2 backdrop-blur-lg ">
             modern & stylish furniture

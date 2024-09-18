@@ -22,7 +22,7 @@ function Category() {
             <img
               src={livingRoom}
               alt=""
-              className="xl:h-[20rem] w-[22rem]  h-[20rem] rounded-[3rem]"
+              className="xl:h-[20rem] w-[22rem]  h-[20rem] rounded-[1rem]"
             />
             <p className="text-center w-full">Living Room</p>
           </span>
@@ -30,7 +30,7 @@ function Category() {
             <img
               src={bedRoom}
               alt=""
-              className="xl:h-[20rem] w-[22rem]  h-[20rem] rounded-[3rem]"
+              className="xl:h-[20rem] w-[22rem]  h-[20rem] rounded-[1rem]"
             />
             <p className="text-center w-full">Bed Room</p>
           </span>
@@ -38,7 +38,7 @@ function Category() {
             <img
               src={diningRoom}
               alt=""
-              className="xl:h-[20rem] w-[22rem]  h-[20rem] rounded-[3rem]"
+              className="xl:h-[20rem] w-[22rem]  h-[20rem] rounded-[1rem]"
             />
             <p className="text-center w-full">Dining Room</p>
           </span>
@@ -46,7 +46,7 @@ function Category() {
             <img
               src={homeOffice}
               alt=""
-              className="xl:h-[20rem] w-[22rem]  h-[20rem] rounded-[3rem] object-cover"
+              className="xl:h-[20rem] w-[22rem]  h-[20rem] rounded-[1rem] object-cover"
             />
             <p className="text-center w-full">Home Office</p>
           </span>
@@ -58,7 +58,7 @@ function Category() {
           <img
             src={sittinArea}
             alt=""
-            className="xl:h-[30rem] xl:w-[50rem] w-[25rem] rounded-[3rem] "
+            className="xl:h-[30rem] xl:w-[50rem] w-[25rem] rounded-[1rem] "
           />
         </div>
         <div className="xl:w-[45rem] text-center xl:text-start ">
