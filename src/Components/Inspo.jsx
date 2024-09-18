@@ -15,37 +15,40 @@ function Inspo() {
           ensure <br /> you receive only the best.
         </h1>
       </div>
-      <div className="flex justify-center items-center gap-5 py-10">
-        <img
-          src={inspo1}
-          alt=""
-          className=" h-[20rem] rounded-lg drop-shadow-md"
-        />
-        <img
-          src={inspo2}
-          alt=""
-          className=" h-[30rem] rounded-lg drop-shadow-md"
-        />
-        <img
-          src={inspo3}
-          alt=""
-          className=" h-[40rem] rounded-lg drop-shadow-md"
-        />
-        <img
-          src={inspo4}
-          alt=""
-          className=" h-[30rem] rounded-lg drop-shadow-md"
-        />
-        <img
-          src={inspo5}
-          alt=""
-          className=" h-[20rem] rounded-lg drop-shadow-md"
-        />
-      </div>
-      <div>
-        <p className="CisalackSignature absolute lg:-bottom-[230rem] -bottom-[400rem] -z-20  lg:text-[35rem] text-[8rem] text-gray-200">
-          AIKE
-        </p>
+      <div className="relative flex flex-col justify-center items-center gap-5 py-10">
+        <div className="flex justify-center items-center">
+          <img
+            src={inspo1}
+            alt=""
+            className="hidden lg:flex h-[20rem] rounded-lg drop-shadow-md"
+          />
+          <img
+            src={inspo2}
+            alt=""
+            className=" lg:h-[30rem] h-[10rem] relative -right-12   -rotate-12  rounded-lg drop-shadow-md"
+          />
+          <img
+            src={inspo3}
+            alt=""
+            className=" lg:h-[40rem] h-[15rem] rounded-lg drop-shadow-md"
+          />
+          <img
+            src={inspo4}
+            alt=""
+            className=" lg:h-[30rem] h-[10rem] relative right-12  -z-10 rotate-12 rounded-lg drop-shadow-md"
+          />
+          <img
+            src={inspo5}
+            alt=""
+            className="hidden lg:flex h-[20rem] rounded-lg drop-shadow-md"
+          />{" "}
+        </div>
+
+        <div>
+          <p className=" CisalackSignature absolute lg:-bottom-[10rem] -bottom-[2rem] right-4 -z-20  lg:text-[35rem] text-[8rem] text-gray-200">
+            AIKE
+          </p>
+        </div>
       </div>
     </div>
   );
