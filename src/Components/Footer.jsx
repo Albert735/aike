@@ -2,7 +2,7 @@
 
 function Footer() {
   return (
-    <div className="logo flex flex-col w-[100%] max-w-screen-2xl mx-auto justify-between items-start py-5 px-5 md:px-10 gap-10">
+    <div className="logo flex flex-col w-[100%] max-w-screen-lg mx-auto justify-between items-start py-5 px-5 md:px-10 gap-10">
       <div className="flex xl:flex-row flex-col flex-wrap justify-between w-full gap-10">
         <div>
           <h1 className="CisalackSignature font-bold md:text-[2rem] text-[1.5rem]">

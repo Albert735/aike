@@ -7,7 +7,7 @@ import naxu from "../assets/background-with-simple-white-walls-furniture.jpg";
 
 function FurnitureSale() {
   return (
-    <div className="logo flex flex-col w-[100%] max-w-screen-2xl mx-auto justify-between items-start py-10 px-5 md:px-0 ">
+    <div className="logo flex flex-col w-[100%] max-w-screen-lg mx-auto justify-between items-start py-10 px-5 md:px-0 ">
       <div className="flex flex-col justify-center items-center w-full py-5">
         <h1 className="CisalackSignature text-xl">POPULAR</h1>
         <h1 className="Golanerounded text-[2rem]">Furniture Sale Now On!</h1>

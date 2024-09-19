@@ -13,7 +13,7 @@ import halfStar from "../assets/icons8-star-half-empty-100.png";
 
 const Hero = () => {
   return (
-    <div className="logo flex flex-col xl:flex-row  max-w-screen-2xl mx-auto justify-between items-start py-10 px-5 md:px-0 ">
+    <div className="logo flex flex-col xl:flex-row  max-w-screen-lg mx-auto justify-between items-start py-10 px-5 md:px-0 ">
       <div className="flex flex-col gap-5 w-full xl:w-[40rem]">
         <div className=" ">
           <h1 className="xl:text-[4rem] text-[2rem] md:text-[2.5rem] text-center xl:text-left Golanerounded">

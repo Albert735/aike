@@ -7,7 +7,7 @@ import inspo5 from "../assets/view-interior-design-space-with-color-year-furnish
 
 function Inspo() {
   return (
-    <div className="logo flex flex-col w-[100%] max-w-screen-2xl mx-auto justify-between items-start py-20 px-5 md:px-0">
+    <div className="logo flex flex-col w-[100%] max-w-screen-lg mx-auto justify-between items-start py-20 px-5 md:px-0">
       <div className="flex justify-center items-cente xl:justify-start xl:items-start w-full">
         <h1 className="xl:text-[3rem] text-[2rem] Golanerounded">
           We <span className="CisalackSignature">meticulously</span> curate our
