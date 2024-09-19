@@ -97,7 +97,7 @@ const Hero = () => {
           <img
             src={view}
             alt=""
-            className="h-[12rem]  w-[12rem] xl:w-[15rem] xl:h-[15rem] rounded-[1rem]  object-cover "
+            className="h-[12rem] md:relative md:left-[30rem]  w-[12rem] xl:w-[15rem] xl:h-[15rem] rounded-[1rem]  object-cover "
           />
         </span>
 
