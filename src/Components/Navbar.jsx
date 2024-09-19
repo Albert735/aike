@@ -18,7 +18,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="logo flex w-[100%] max-w-screen-lg mx-auto justify-between items-center py-5 px-5 md:px-10">
+    <div className="logo flex w-[100%] max-w-screen-xl mx-auto justify-between items-center py-5 px-5 md:px-10 xl:px-10">
       <div className="flex flex-row justify-center items-center gap-5">
         <h1 className="CisalackSignature font-bold xl:text-[2rem] text-[1.5rem]">
           AIKE

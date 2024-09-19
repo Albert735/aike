@@ -13,7 +13,7 @@ import halfStar from "../assets/icons8-star-half-empty-100.png";
 
 const Hero = () => {
   return (
-    <div className="logo flex flex-col xl:flex-row  max-w-screen-lg mx-auto justify-between items-start py-10 px-5 md:px-0 ">
+    <div className="logo flex flex-col xl:flex-row  max-w-screen-xl mx-auto justify-between items-start py-10 px-5 md:px-10 ">
       <div className="flex flex-col gap-5 w-full xl:w-[40rem]">
         <div className=" ">
           <h1 className="xl:text-[4rem] text-[2rem] md:text-[2.5rem] text-center xl:text-left Golanerounded">
@@ -87,17 +87,17 @@ const Hero = () => {
           </span>
         </div>
       </div>
-      <div className="flex flex-wrap gap-5 justify-center items-center mt-12 xl:mt-0">
+      <div className="flex gap-5 justify-center items-center mt-12 xl:mt-0">
         <span className="flex flex-col gap-3">
           <img
             src={chair}
             alt=""
-            className="h-[15rem] relative right-10 md:left-10 lg:left-20 xl:right-0 -top-4 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[1rem]  brightness-110 "
+            className="h-[12rem]  w-[12rem] xl:w-[15rem] xl:h-[15rem] rounded-[1rem]  object-cover  brightness-110 "
           />
           <img
             src={view}
             alt=""
-            className="h-[15rem] relative left-16 md:left-[35rem] lg:left-[40rem] xl:left-0 w-[15rem] xl:w-[20rem] xl:h-[21rem] rounded-[1rem] "
+            className="h-[12rem]  w-[12rem] xl:w-[15rem] xl:h-[15rem] rounded-[1rem]  object-cover "
           />
         </span>
 
@@ -105,9 +105,9 @@ const Hero = () => {
           <img
             src={elegant}
             alt=""
-            className="h-[25rem]  relative right-14 md:left-10 lg:left-24 xl:right-0 w-[15rem] xl:w-[25rem] xl:h-[46.5rem] rounded-[1rem] brightness-110"
+            className="h-[25rem] w-[15rem] xl:w-[20rem] xl:h-[36.5rem] rounded-[1rem] object-cover brightness-110"
           />
-          <p className="Golanerounded relative xl:bottom-24 md:hidden bottom-56 xl:left-5 right-10 text-white xl:text-[1.2rem] rounded-md bg-white/15 w-[9rem] xl:w-[15rem] px-4 py-2 backdrop-blur-lg ">
+          <p className="Golanerounded relative hidden bottom-56 xl:left-5 right-10 text-white xl:text-[1.2rem] rounded-md bg-white/15 w-[9rem] xl:w-[15rem] px-4 py-2 backdrop-blur-lg ">
             modern & stylish furniture
           </p>
         </span>

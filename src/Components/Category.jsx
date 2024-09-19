@@ -7,13 +7,13 @@ import sittinArea from "../assets/sofa-living-room-decorated-with-brazilian-folk
 
 function Category() {
   return (
-    <div className="logo flex flex-col w-[100%] max-w-screen-lg mx-auto justify-between items-start py-10 px-5 md:px-0 gap-[10rem] ">
+    <div className="logo flex flex-col w-[100%] max-w-screen-xl mx-auto justify-between items-start py-10 px-5 md:px-10 gap-[10rem] ">
       <div>
         <div className="flex flex-col justify-start items-start w-full py-5 text-center xl:text-start">
-          <h1 className="CisalackSignature text-xl text-center xl:text-start w-full">
+          <h1 className="CisalackSignature text-xl text-center  w-full">
             CATEGORY
           </h1>
-          <h1 className="Golanerounded text-center xl:text-start w-full text-[2rem]">
+          <h1 className="Golanerounded text-center  w-full text-[2rem]">
             Design Your Perfect Home
           </h1>
         </div>

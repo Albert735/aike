@@ -7,7 +7,7 @@ import inspo5 from "../assets/view-interior-design-space-with-color-year-furnish
 
 function Inspo() {
   return (
-    <div className="logo flex flex-col w-[100%] max-w-screen-lg mx-auto justify-between items-start py-20 px-5 md:px-0">
+    <div className="logo flex flex-col w-[100%] max-w-screen-xl mx-auto justify-between items-start py-20 px-5 md:px-10">
       <div className="flex justify-center items-cente xl:justify-start xl:items-start w-full">
         <h1 className="xl:text-[3rem] text-[2rem] Golanerounded">
           We <span className="CisalackSignature">meticulously</span> curate our
@@ -20,27 +20,27 @@ function Inspo() {
           <img
             src={inspo1}
             alt=""
-            className="hidden xl:flex h-[20rem] rounded-lg drop-shadow-md"
+            className="hidden xl:flex h-[20rem] rounded-lg drop-shadow-md relative -right-16 -rotate-12"
           />
           <img
             src={inspo2}
             alt=""
-            className=" xl:h-[30rem] md:h-[15rem] h-[10rem] relative -right-12   -rotate-12  rounded-lg drop-shadow-md"
+            className=" xl:h-[25em] md:h-[15rem] h-[10rem] relative -right-16   -rotate-12  rounded-lg drop-shadow-md"
           />
           <img
             src={inspo3}
             alt=""
-            className=" xl:h-[40rem] md:h-[20rem] h-[15rem] rounded-lg drop-shadow-md"
+            className=" xl:h-[30rem] md:h-[20rem] h-[15rem] rounded-lg drop-shadow-md"
           />
           <img
             src={inspo4}
             alt=""
-            className=" xl:h-[30rem] md:h-[15rem] h-[10rem] relative right-12  -z-10 rotate-12 rounded-lg drop-shadow-md"
+            className=" xl:h-[25rem] md:h-[15rem] h-[10rem] relative right-16  -z-10 rotate-12 rounded-lg drop-shadow-md"
           />
           <img
             src={inspo5}
             alt=""
-            className="hidden xl:flex h-[20rem] rounded-lg drop-shadow-md"
+            className="hidden xl:flex h-[20rem] rounded-lg drop-shadow-md relative right-16 z-10 rotate-12"
           />{" "}
         </div>
 
